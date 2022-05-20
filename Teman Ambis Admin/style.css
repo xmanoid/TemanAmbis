@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+    ;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Admin Topbar */
+
+.admin_topbar{
+    width: 100%;
+    height: 60px;
+    background-color: #195A5C;
+    top: 0%;
+    position: fixed;
+    right:0%;
+    z-index: 1;
+}
+
+.admin_topbar h2{
+    position: absolute;
+    left: 4%;
+    top: 20%;
+    font-family: 'Montserrat' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.admin_profile{
+    right: 1%;
+    position: absolute;
+    top: 12%;
+}
+
+.logo{
+    display:flex;
+    left: 50%;
+    position: absolute;
+    width: 235px;
+    height: 60px;
+}
+
+/* Admin Sidebar */
+.admin_sidebar{
+    position: fixed;
+    background: url(asset/sidebar.png);
+    width: 200px;
+    height: 100%;
+    left: 0;
+    padding-top: 60px;
+}
+
+.admin_sidebar ul li {
+    margin: 25px 0;
+}
+
+.admin_sidebar ul li a{
+    color: #ffffff;
+    padding: 0 30px;
+    font-family: "Roboto",sans-serif;
+
+}
+.admin_sidebar ul li a:hover{
+    color: #FDBD5B;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+/* Sidebar end Here  */
+
+/* Main Content Section Start Here  */
+
+.main{
+    margin-left: 200px;
+    padding: 50px;
+}
+
+.main h2{
+    margin-top: 20px;
+}
+
+/* Admin Event Review */
+.admin_event_table  {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    top: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Admin Event Review Add */
+.add_img_event{
+    float: left;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background: url(Asset/add_image.png);
+    background-size: 200px 200px;
+}
+
+.title_er{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 50%;
+    padding:3px;
+}
+
+.description_er{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 50%;
+    padding:3px;
+    padding-bottom: 100px;
+}
+
+.button_post{
+    position: absolute;
+    background-color: #FDBD5B;
+    font-family: 'Montserrat';
+    top: 60%;
+    width: 100px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+.button_post:hover{
+    position: absolute;
+    background-color: #e29134;
+    top: 60%;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+}
+
+.button_add{
+    position: absolute;
+    top: 15%;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    border: none;
+    right: 10%;
+}
+
+/* Admin Tryout Add */
+.link_er{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 50%;
+    padding:3px;
+}
+
+/* Admin Manage User */
+.adm_user_username{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 50%;
+    padding:3px;
+}
+
+.adm_user_email{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 50%;
+    padding:3px;
+}
